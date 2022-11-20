@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Frontend Mentor | News homepage</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 14px;
+        text-align: center;
+        margin-top: 2rem;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div>
+        <img src="./assets/images/logo.svg" alt="" />
+      </div>
+
+      <nav>
+        <button id="menu-close">
+          <img src="./assets/images/icon-menu-close.svg" alt="" />
+        </button>
+
+        <ul>
+          <li>Basty bet</li>
+          <li>Jańa</li>
+          <li>Tanymal</li>
+          <li>Trend</li>
+          <li>Kategoriyalar</li>
+        </ul>
+      </nav>
+
+      <div id="menu-button">
+        <button id="menu-button">
+          <img src="./assets/images/icon-menu.svg" alt="" />
+        </button>
+      </div>
+    </header>
+
+    <section class="showcase">
+      <div>
+        <picture>
+          <source
+            media="(min-width: 768px)"
+            srcset="./assets/images/image-web-3-desktop.jpg"
+          />
+          <img src="./assets/images/image-web-3-mobile.jpg" alt="" />
+        </picture>
+
+        <article>
+          <h1>Web 3.0 jarqyn bolashaǵy?</h1>
+
+          <div>
+            <p>
+              Biz platformalardyń Kúshin adamdardyń qolyna qaıtarýdy talap
+              etetin Internettiń kelesi evolúsıasyna enip jatyrmyz. Biraq ol
+              shynymen de ýádesin oryndaı ma?
+            </p>
+
+            <button>Tolyǵyraq</button>
+          </div>
+        </article>
+      </div>
+
+      <div>
+        <h3>Jańa</h3>
+
+        <article>
+          <h3>Sýtegi jáne elektromobılder</h3>
+          <p>
+            Sýtegimen jumys isteıtin kólikter elektromobılderdi qýyp jete ala
+            ma?
+          </p>
+        </article>
+
+        <article>
+          <h3>Jasandy ıntellekt sheberliginiń kemshilikteri</h3>
+          <p>
+            Suranys boıynsha jasandy ıntellekt arqyly keskin jasaýdyń yqtımal
+            teris saldary qandaı?
+          </p>
+        </article>
+
+        <article>
+          <h3>Venchýrlyq qarjylandyrý qurǵap jatyr ma?</h3>
+          <p>
+            Venchýrlik kompanıalardyń jeke qarjylandyrýy jyl saıyn 50% - ǵa
+            qysqardy. Biz bul neni bildiretinin kóremiz.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <div class="cards">
+      <article>
+        <img src="./assets/images/image-retro-pcs.jpg" alt="" />
+        <div>
+          <span>01</span>
+          <h4>Retro kompúterdiń qaıta jandanýy.</h4>
+          <p>Eski kompúterler zamanaýı jańartýlardy alǵan kezde ne bolady?</p>
+        </div>
+      </article>
+
+      <article>
+        <img src="./assets/images/image-top-laptops.jpg" alt="" />
+        <div>
+          <span>02</span>
+          <h4>2022 jyldyn eń jaqsy 10 noýtbýkteri.</h4>
+          <p>
+            Ár túrli qajettilikter men búdjetter úshin bizdiń eń jaqsy
+            tańdaýymyz.
+          </p>
+        </div>
+      </article>
+
+      <article>
+        <img src="./assets/images/image-gaming-growth.jpg" alt="" />
+        <div>
+          <span>03</span>
+          <h4>Oıyn ındýstrıasynyń ósýi.</h4>
+          <p>Pandemıa jańa múmkindikterdi qalaı ashty.</p>
+        </div>
+      </article>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Galym</a>.
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
